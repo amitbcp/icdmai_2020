@@ -13,7 +13,7 @@ Use any of the following services.
 **WARNING**: Please be aware that these services provide temporary environments: anything you do will be deleted after a while, so make sure you download any data you care about.
 
 * **Recommended**: open this repository in [Colaboratory](https://github.com/amitbcp/icdmai_2020/tree/master):
-<a href="https://github.com/amitbcp/icdmai_2020/tree/master"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
+<a href="https://colab.research.google.com/github/amitbcp/icdmai_2020/blob/master/"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
 
 
 ### Just want to quickly look at some notebooks, without executing any code?
