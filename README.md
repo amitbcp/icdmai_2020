@@ -17,7 +17,7 @@ Follow the below steps to setup a Google Colab Workspace and run your experiment
    iii. The second cell would install the required packages. This should set up your workspace.   
    iv. Run the cells to download the data soures required.    
 6. From here follow the notebooks in the numbered ordered.   
-7. Verify your Drive has a folder ICDMAI_Tutorial/notebook. This should have a couple of notebooks.  
+7. Verify your Drive has a folder **ICDMAI_Tutorial/notebook**. This should have a couple of notebooks.  
 
 ## Quick Start
 
@@ -61,8 +61,8 @@ The Technology domains are :
 
 ## Notebooks
 
-**[Setup Notebook]**(https://github.com/amitbcp/icdmai_2020/blob/master/0_setup.ipynb)
-**[Checklist & Flow for NLP Problems]**(https://github.com/amitbcp/icdmai_2020/blob/master/ICDMAI%20Flow.docx) : 
+**[Setup Notebook](https://github.com/amitbcp/icdmai_2020/blob/master/0_setup.ipynb)**  :  Notebook To setup & try-out experiments.  
+**[Checklist & Flow for NLP Problems](https://github.com/amitbcp/icdmai_2020/blob/master/ICDMAI%20Flow.docx)** : Best Case Practice while solving Deep Learning problems related to NLP.  
 1. [Exploratory Data Analysis](https://github.com/amitbcp/icdmai_2020/blob/master/1_eda.ipynb) : Explore the relationships within different groups and labels with the text.
 2. [Classical ML Approach](https://github.com/amitbcp/icdmai_2020/blob/master/2_classical_ml_approach.ipynb) : Demonstrate Naive Baise, SVM  & Logistic Regression for baseline modeling.
 3. Data Preparation :  Creating dataset for RNNs  
@@ -72,6 +72,6 @@ The Technology domains are :
 5. [Model Training](https://github.com/amitbcp/icdmai_2020/blob/master/5_model_training.ipynb) : Prototyping & Training LSTMs for Text Classification
 6. [Inference Pipeline](https://github.com/amitbcp/icdmai_2020/blob/master/6_inference_pipeline.ipynb) : Ensembling models for prediction
 7. [Visualise Results](https://github.com/amitbcp/icdmai_2020/blob/master/7_visualize_results.ipynb) : Plotting Loss curves & perfomance metrics
-8. [Outline]() : Handling RNN pipelines end-to-end.
+8. [Outline](https://github.com/amitbcp/icdmai_2020/blob/master/icdmai_v2.pptx) : Handling RNN pipelines end-to-end.
 9. [Proposal](https://github.com/amitbcp/icdmai_2020/blob/master/proposal_icdmai_2020.pdf) : Proposal to ICDMAI 2020 committee.
 10. [Presentation]() : Presentation used for the session.
