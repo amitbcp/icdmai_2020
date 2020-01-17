@@ -4,6 +4,20 @@
 This repository walks you through an end-to-end  flow of training  Sequence Models (RNNs) along with all the tips/tricks/pointers of which a developer should be aware.
 
 Here, we explain how to frame/handle a Multi-Class | Multi-Label Text Classification problem statement along with it's data preparation pipeline.
+## Quick Colab Setup
+Follow the below steps to setup a Google Colab Workspace and run your experiments : 
+
+1. The Github Repo is: https://github.com/amitbcp/icdmai_2020
+2. The setup notebook in the repo is: 0_setup.ipynb
+3. Kindly use the link below and select the 0_setup.ipynb file to be opened in your personal Google account
+4. Link: https://colab.research.google.com/github/amitbcp/icdmai_2020/blob/master/
+5. Run the Cells in the notebook after connecting to a run-time.   
+   i. The first cell requests access to your Grdrive to create the appropriate folders/files.  
+   ii.Please authorize and allow access to the notebook from your google account by copying the verification code that appears.   
+   iii. The second cell would install the required packages. This should set up your workspace.   
+   iv. Run the cells to download the data soures required.    
+6. From here follow the notebooks in the numbered ordered.   
+7. Verify your Drive has a folder ICDMAI_Tutorial/notebook. This should have a couple of notebooks.  
 
 ## Quick Start
 
@@ -47,14 +61,17 @@ The Technology domains are :
 
 ## Notebooks
 
+**[Setup Notebook]**(https://github.com/amitbcp/icdmai_2020/blob/master/0_setup.ipynb)
+**[Checklist & Flow for NLP Problems]**(https://github.com/amitbcp/icdmai_2020/blob/master/ICDMAI%20Flow.docx) : 
 1. [Exploratory Data Analysis](https://github.com/amitbcp/icdmai_2020/blob/master/1_eda.ipynb) : Explore the relationships within different groups and labels with the text.
 2. [Classical ML Approach](https://github.com/amitbcp/icdmai_2020/blob/master/2_classical_ml_approach.ipynb) : Demonstrate Naive Baise, SVM  & Logistic Regression for baseline modeling.
-3. Data Preparation :  Creating dataset for RNNs
-   a. [Standard](https://github.com/amitbcp/icdmai_2020/blob/master/3a_standard_data_preparation.ipynb) : Creating group level dataset without handling biasness.
-   b. [Normalise](https://github.com/amitbcp/icdmai_2020/blob/master/3b_normalise_data_preparation.ipynb) : Creating group level dataset after clipping data to  normalise the distribution.
+3. Data Preparation :  Creating dataset for RNNs  
+   a. [Standard](https://github.com/amitbcp/icdmai_2020/blob/master/3a_standard_data_preparation.ipynb) : Creating group level dataset without handling biasness.  
+   b. [Normalise](https://github.com/amitbcp/icdmai_2020/blob/master/3b_normalise_data_preparation.ipynb) : Creating group level dataset after clipping data to  normalise the distribution.  
 4. [Word Embedding](https://github.com/amitbcp/icdmai_2020/blob/master/4_word_embedding.ipynb) : Training Custom word-embeddings for our corpus
 5. [Model Training](https://github.com/amitbcp/icdmai_2020/blob/master/5_model_training.ipynb) : Prototyping & Training LSTMs for Text Classification
 6. [Inference Pipeline](https://github.com/amitbcp/icdmai_2020/blob/master/6_inference_pipeline.ipynb) : Ensembling models for prediction
 7. [Visualise Results](https://github.com/amitbcp/icdmai_2020/blob/master/7_visualize_results.ipynb) : Plotting Loss curves & perfomance metrics
 8. [Outline]() : Handling RNN pipelines end-to-end.
-9. [Proposal](https://github.com/amitbcp/icdmai_2020/blob/master/proposal_icdmai_2020.pdf) : Proposal to ICDMAI 2020 committee
+9. [Proposal](https://github.com/amitbcp/icdmai_2020/blob/master/proposal_icdmai_2020.pdf) : Proposal to ICDMAI 2020 committee.
+10. [Presentation]() : Presentation used for the session.
